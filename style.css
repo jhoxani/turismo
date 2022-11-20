@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+}
+
+.imgHome .img2 img{
+    width: 44%;
+    height: 300px;
+}
+
+.imgHome .img3 img{
+    width: 33%;
+    height: 300px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+    margin: 1%;
+}
+
+.imgHomeLarge div h3{
+    padding: 98px;
+}
+
+.imgHomeLarge div{
+    background-size:  100% 100%;
+}
+
+.imgHomeSmall img{
+    width: 19.6%;
+    height: 200px;
+}
+
+.logo{
+    width: 10%
+}
+
+footer{
+    padding: 20px;
+}
+
+nav, footer{
+    background-color: blueviolet;
+}
+
+.nav-link, footer{
+    color:white;
+}
+
+.master{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    margin: 2%;
+}
+
+.info{
+    margin: 3%;
+}
+
+.imgSite{
+    width: 80%;
+    height: 30vh;
+}
+
+.formSite{
+    text-align: left;
+    margin: 3%;
+}
+
+.faqs{
+    margin: auto;
+    width: 540px;
+}
+
+.thanks{
+    margin: 3% auto ;
+    width: 70%;
+}
+/* Responsive*/
+
+/*
+nav: clicActive sacar
+textHome: pasar de 2 col a 1
+imgLarge: ver si dejar, quitar, bajar padding
+master: pasar de 4fr a 1fr
+.imgSit confirmar que se vea bien en varias device
+.faqs: validar que se vea bien en celulares por el ancho fijo
+
+Queda: subir información.
+Hacer arquitectura del sitio (unir los links).
+Hacer responsive el sitio.
+*/
+
